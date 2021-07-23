@@ -1,0 +1,183 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content:flex-start;
+
+}
+
+.logo img{
+    width: 50%;
+}
+.logo img:hover{
+    background-color: rgba(0, 0, 30, 0.7);
+    width: 70%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0px;
+    cursor: pointer;
+}
+.nav-list{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 20px;
+    
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-list li a:hover{
+    color: rgb(0, 247, 255);
+    background-color: rgb(114, 114, 114);
+
+}
+.rightNav{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px;
+
+
+}
+.btn{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 5px;
+    border: 5px ;
+    border-radius: 5px;
+    margin: 2px 10px;
+}
+.btn:hover{
+    color: rgb(43, 255, 244);
+    background-color: rgb(80, 80, 80);
+}
+.topback{
+    background: rgba(0, 0, 0, 0.78) url('calLogo.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.5) url('../img/background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 150vh;
+}
+.box-main{
+    width: auto;
+    height: 400px;
+    display:flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+}
+.firstHalf{
+    width: 50%;
+    color: blanchedalmond;
+    background-color: rgba(0, 0, 25, 0.7);
+    border: 2px solid transparent;
+    margin: 2px 20px;
+    padding: 8px 8px;
+    width: 33%;
+    border-radius: 2px;
+}
+
+.form-group text{
+    text-align: center;
+    display: block;
+    width: 188px;
+    padding: 6px;
+    border: 2px solid black;
+    margin: 3px auto;
+    font-size: 10px;
+    border-radius: 8px;
+}
+.firstHalf h1{
+    text-align: center;
+   color: gray;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 188px;
+    padding: 6px;
+    border: 2px solid black;
+    margin: 3px auto;
+    font-size: 10px;
+    border-radius: 8px;
+}
+.firstHalf button{
+    display: block;
+    width: 40%;
+    margin: auto;
+    padding: 8px;
+}
+
+.trimg img{
+    width: 30%;
+}
+.texts{
+    height: 190px;
+    width: 340px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 40,0.7);
+    border-radius: 5px;
+    padding: 5px;
+}
+.texts:hover{
+    color: rgba(0, 247, 255, 0.7);
+    background-color: rgba(0, 0, 0,0.8);
+}
+.login{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 10px;
+    border-color: beige;
+    margin: 20px 10px;
+}
+
+
+.login:hover{
+    background-color: rgba(0,0 ,0 , 0.7);
+    color: rgb(0, 162, 255);
+    padding: 9px;
+    border-radius: 10px;
+    border-color: rgb(0, 238, 255);
+    cursor: pointer;
+}
+.firstHalf:hover{
+    width: 50%;
+    color: rgb(0, 156, 177);
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid transparent;
+    margin: 2px 20px;
+    padding: 8px 8px;
+    width: 33%;
+    border-radius: 2px;
+}
